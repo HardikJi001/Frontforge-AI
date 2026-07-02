@@ -1,0 +1,20 @@
+# Development Environments & OS files
+node_modules/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+
+# Local Vector Databases & Cache
+.chroma/
+faiss_index/
+.cache/
+
+# Quantized LLM Weights (Never commit model files)
+models/*.gguf
+*.bin
+
+# Sandboxed Workspace Outputs
+workspace/*
+!workspace/.gitkeepgit init
